@@ -43,7 +43,7 @@ blockquote, q {
     padding:0;
     margin:0;
     max-width:100%;
-    border:1px solid gray;
+    /* border:1px solid gray; */
 }
 
 /* General Styles */
@@ -132,6 +132,20 @@ a{
     color: #FFF;
     margin:0 3%;
     padding:0.5% 1%;
+}
+
+.image-container img{
+    width:10%;
+    display:block;
+    margin: 1% auto;
+}
+
+.image-caption {
+    margin: 1% 40%;
+}
+
+.bold{
+    font-weight: bold;
 }
 
 /* Background Image Section */
