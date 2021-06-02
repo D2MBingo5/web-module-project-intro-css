@@ -103,7 +103,6 @@ a{
 }
 .left, .right{
     display:inline-block;
-    text-align: center;
 }
 .left{
     width:40%;    
@@ -116,6 +115,24 @@ a{
     top:150;
 }
 
+.right h2{
+    padding: 3% 0;
+}
+
+.right p{
+    padding: 0 30%;
+}
+
+.left, .right, .main{
+    text-align: center;
+}
+
+.main p{
+    background-color: #DDB9A3;
+    color: #FFF;
+    margin:0 3%;
+    padding:0.5% 1%;
+}
 
 /* Background Image Section */
 .heroImg{
@@ -124,4 +141,8 @@ a{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: top;
+}
+
+footer{
+    background-color: #F9E7DC;
 }
